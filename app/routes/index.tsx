@@ -10,7 +10,7 @@ function Index() {
   return (
     <div className="container">
       <div className="content">
-        <h1>
+        <h1 className="text-yellow-600">
           Remix <span>Jokes!</span>
         </h1>
         <nav>
