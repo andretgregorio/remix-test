@@ -1,9 +1,11 @@
+import Container from '../layout/Container';
+
 export default function Header() {
   return (
     <div className="w-full bg-black">
-      <div className="container mx-auto">
+      <Container>
         <span className="text-white">Voltz</span>
-      </div>
+      </Container>
     </div>
   );
 }
